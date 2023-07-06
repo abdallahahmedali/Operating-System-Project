@@ -13,14 +13,15 @@ The project aimed to showcase the functionality and effectiveness of these sched
 Overall, the project served as a valuable learning experience in understanding the intricacies of process management and memory management in operating systems. It provided a platform to explore the behavior and performance of different algorithms, enabling a deeper understanding of their strengths and weaknesses.
 
 ## System Structure:
-build/
-┣ clk.out
-┣ ds.out
-┣ process.out
-┣ processes.txt
-┣ process_generator.out
-┣ scheduler.out
-┗ test_generator.out
+# build
+
+* [clk.out](.\build\clk.out)
+* [ds.out](.\build\ds.out)
+* [process.out](.\build\process.out)
+* [processes.txt](.\build\processes.txt)
+* [process_generator.out](.\build\process_generator.out)
+* [scheduler.out](.\build\scheduler.out)
+* [test_generator.out](.\build\test_generator.out)
 code/
 ┣ .vscode/
 ┃ ┣ settings.json
