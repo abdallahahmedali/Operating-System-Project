@@ -13,7 +13,57 @@ The project aimed to showcase the functionality and effectiveness of these sched
 Overall, the project served as a valuable learning experience in understanding the intricacies of process management and memory management in operating systems. It provided a platform to explore the behavior and performance of different algorithms, enabling a deeper understanding of their strengths and weaknesses.
 
 ## System Structure:
---
+build/
+┣ clk.out
+┣ ds.out
+┣ process.out
+┣ processes.txt
+┣ process_generator.out
+┣ scheduler.out
+┗ test_generator.out
+code/
+┣ .vscode/
+┃ ┣ settings.json
+┃ ┗ tasks.json
+┣ data_structures/
+┃ ┣ a.out
+┃ ┣ bitmap.c
+┃ ┣ main.c
+┃ ┣ minHeap.c
+┃ ┣ minHeap.h
+┃ ┣ node.c
+┃ ┣ node.h
+┃ ┣ priorityQueue.c
+┃ ┣ priorityQueue.h
+┃ ┗ sequential_queue.h
+┣ clk.c
+┣ file
+┣ headers.h
+┣ Makefile
+┣ pcb.h
+┣ process.c
+┣ process_generator.c
+┣ ReadFile
+┣ README
+┣ README.md
+┣ scheduler.c
+┣ sfile
+┣ shmfile
+┣ test_generator
+┣ test_generator.c
+┗ WriteFile
+Documents/
+┗ Project_Summary.docx
+io/
+┣ memory.log
+┣ processes.txt
+┣ scheduler.log
+┗ scheduler.perf
+utils/
+┣ build.bash
+┣ p_gen.bash
+┣ rmapp.bash
+┗ run.bash
 
 #### Input Files:
 1. processes.txt:
